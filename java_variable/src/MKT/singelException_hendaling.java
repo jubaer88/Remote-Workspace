@@ -10,6 +10,13 @@ public class singelException_hendaling {
 		}catch(ArithmeticException a){
 			System.out.println("excetion handaling is done");
 		}
+		catch(NullPointerException a1){
+			System.out.println("excetion handaling ");
+		}
+		finally {  
+			System.out.println("this is the end of the program");
+		}
 	}
 
 }
+
